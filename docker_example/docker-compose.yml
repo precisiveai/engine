@@ -27,3 +27,5 @@ services:
 volumes:
   langflow-postgres:
   langflow-data:
+
+  LANGFLOW_TELEMETRY_ENABLED=False
